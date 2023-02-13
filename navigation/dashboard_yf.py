@@ -36,7 +36,7 @@ def get_market(coin: str):
     return info
 
 def pageII():
-
+    st.header("At the moment the page is not working, seems like yfinance API has some troubles")
     st.title('Crypto Dashboard', anchor = "title")
     # Sidebar
     tickers = ('BTC', 'ETH', 'SOL', 'ADA', 'DOT', 'MATIC', 'EGLD', 'DOGE', 'XRP', 'BNB')
